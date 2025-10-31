@@ -355,7 +355,6 @@ box-shadow:
 .employee-item.animate-in:nth-child(9) { transition-delay: 0.45s; }
 .employee-item.animate-in:nth-child(10) { transition-delay: 0.5s; }
 
-/* Hover Effects */
 .employee-item::before {
   content: '';
   position: absolute;
@@ -388,7 +387,6 @@ box-shadow:
   transition: all 0.2s ease;
 }
 
-/* Employee Content */
 .employee-item-content {
   position: relative;
   z-index: 2;
@@ -423,7 +421,6 @@ box-shadow:
   transform: translateX(8px);
 }
 
-/* Details Page Items - Faster Immediate Animation */
 .detail-item {
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(16px);

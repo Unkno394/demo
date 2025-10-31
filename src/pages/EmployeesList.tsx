@@ -31,7 +31,6 @@ export default function EmployeesList() {
   );
 }
 
-// Separate component for scroll animation
 function EmployeeCard({ employee }: { employee: { id: number; name: string; email: string } }) {
   const elementRef = useScrollAnimation();
 

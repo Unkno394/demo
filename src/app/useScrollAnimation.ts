@@ -13,14 +13,13 @@ export function useScrollAnimation() {
           if (entry.isIntersecting) {
             entry.target.classList.add('animate-in');
           } else {
-            // Убираем класс при скролле вверх, чтобы анимация срабатывала снова
             entry.target.classList.remove('animate-in');
           }
         });
       },
       {
-        threshold: 0.05, // Низкий порог для быстрого срабатывания
-        rootMargin: '0px 0px -5% 0px' // Уменьшенный отступ для более раннего срабатывания
+        threshold: 0.05, 
+        rootMargin: '0px 0px -5% 0px' 
       }
     );
 
